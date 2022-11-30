@@ -42,7 +42,7 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>GPT-3 AI Prompt Generator</h1>
+            <h1>GPT-3 AI/ML Prompt Generator</h1>
           </div>
           <div className="header-subtitle">
             <h2>you can use it to generate everything</h2>
