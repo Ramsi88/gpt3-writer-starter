@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import buildspaceLogo from "../assets/rms.svg";
+import rmsLogo from "../assets/rmslogo.png";
+//import rmsLogo from "../assets/rms.svg";
 
 import { useState } from "react";
 
@@ -86,12 +87,12 @@ const Home = () => {
       </div>
       <div className="badge-container grow">
         <a
-          href="https://buildspace.so/builds/ai-writer"
+          href="https://gtp3.writer.vercel.app"
           target="_blank"
           rel="noreferrer"
         >
           <div className="badge">
-            <Image src={buildspaceLogo} alt="rms logo" />
+            <Image src={rmsLogo} alt="rms logo" />
             <p>build by rms</p>
           </div>
         </a>
